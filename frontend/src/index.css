@@ -1,0 +1,65 @@
+/* Body styling */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #121212; /* Dark background */
+  color: #e0e0e0; /* Light text */
+}
+
+/* Links */
+a {
+  color: #bb86fc; /* Purple accent */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff; /* White headings for contrast */
+}
+
+/* Buttons */
+button {
+  background-color: #6200ee; /* Deep purple */
+  color: #ffffff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #3700b3; /* Darker purple on hover */
+}
+
+/* Inputs */
+input, select, textarea {
+  background-color: #1f1f1f; /* Dark input fields */
+  color: #e0e0e0;
+  border: 1px solid #333;
+  padding: 6px 10px;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus, textarea:focus {
+  border-color: #bb86fc; /* Purple accent on focus */
+}
+
+/* Code blocks */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  background-color: hsl(0, 48%, 5%);
+  color: #ff4d4d; /* Yellowish code */
+  padding: 2px 5px;
+  border-radius: 3px;
+}
